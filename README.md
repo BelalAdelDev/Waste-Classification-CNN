@@ -5,7 +5,7 @@ A deep learning solution for automatic classification of waste images using Conv
 
 ## Project Overview
 
-This project trains and evaluates a CNN model to classify images of waste into six classes: cardboard, glass, metal, paper, plastic, and trash. It uses image augmentation and leverages transfer learning with EfficientNetB0 pretrained on ImageNet. The notebook includes training, evaluation, metrics reporting, and inference demonstrations.[1]
+This project trains and evaluates a CNN model to classify images of waste into six classes: cardboard, glass, metal, paper, plastic, and trash. It uses image augmentation and leverages transfer learning with EfficientNetB0 pretrained on ImageNet. The notebook includes training, evaluation, metrics reporting, and inference demonstrations.
 
 ***
 
@@ -15,7 +15,7 @@ This project trains and evaluates a CNN model to classify images of waste into s
 - Sample distribution in notebook:  
     - Train: 1766 images/6 classes
     - Validation: 377 images/6 classes
-    - Test: 384 images/6 classes[1]
+    - Test: 384 images/6 classes
 - Supported image formats: `.png`, `.jpg`, `.jpeg`.
 
 ***
@@ -110,8 +110,3 @@ MIT License (recommended—adapt as needed).
 - Dataset inspiration: TACO/TrashNet
 - Contributors, tutorials, and open-source community
 
-***
-
-For further details, consult code comments and cell outputs in the notebook.[1]
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/118848277/6273b3d0-3876-424d-8174-896c3895189e/Waste_Classification_CNN.ipynb)
